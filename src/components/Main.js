@@ -164,7 +164,6 @@ const Main = () => {
                 </tbody>
             </table>
 
-            <a href="#">上に戻る</a>
         </div>
     )
 }

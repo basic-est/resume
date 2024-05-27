@@ -4,7 +4,7 @@ html {
 }
 body {
   padding-top: 60px;
-  margin-bottom: 80px;
+  margin-bottom: 160px;
 }
 .footer {
   position: absolute;
@@ -22,4 +22,26 @@ body {
 
 .container .text-muted {
   margin: 20px 0;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.scroll-button {
+  background-color: #ffffff00;
+  color: #757575;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 58px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.scroll-button:hover {
+  color: #363636;
 }
