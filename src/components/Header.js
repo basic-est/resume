@@ -3,7 +3,7 @@ import a_circle from '../images/a_circle.png'
 
 const Header = () => {
     return (
-        <div class="fixed-top">
+        <div class="fixed-top no-print">
             <nav class="navbar bg-body-tertiary shadow">
                 <div class="container-fluid">
                     <a class="navbar-brand display-4" href="#">

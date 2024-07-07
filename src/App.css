@@ -45,3 +45,14 @@ body {
 .scroll-button:hover {
   color: #363636;
 }
+
+@media print {
+  .no-print {
+    display: none;
+  }
+
+  .page-break {
+    break-before: page;
+    page-break-before: always; /* 旧ブラウザ対応用 */
+  }
+}

@@ -29,7 +29,7 @@ const Main = () => {
                 </tbody>
             </table>
 
-            <div class="border-bottom">
+            <div class="border-bottom page-break">
                 <div class="h2 pt-5" id="career">経歴</div>
             </div>
             <div class="text-end mt-5">2020年04月 ~ 現職</div>
